@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  color: #fff;
+  width: 900px;
+}
+div#wapper {
+  width: 100%;
+  text-align: left;
+  min-height: 300px;
+  margin: 0 auto;
+}
+header,
+footer,
+nav,
+aside,
+section {
+  border: 1px solid #999;
+  margin: 5px;
+  padding: 10px;
+}
+header {
+  height: 50px;
+  background-color: pink;
+}
+nav,
+section,
+aside {
+  float: left;
+  height: 200px;
+}
+nav {
+  background-color: goldenrod;
+  width: 10%;
+}
+section {
+  background-color: green;
+  width: 70%;
+}
+aside {
+  background-color: goldenrod;
+  width: 5%;
+}
+footer {
+  height: 50px;
+  background-color: blue;
+  position: relatiev;
+  clear: both;
+}
+article {
+  width: 90%;
+  margin: 20px;
+  background-color: #999;
+}
